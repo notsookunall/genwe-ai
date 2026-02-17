@@ -49,34 +49,69 @@ export const ANNUAL_TIER: PricingTier = {
 };
 
 export const PORTFOLIO_ITEMS: PortfolioItem[] = [
+  // Fashion Category
   {
     id: 1,
     client: "NeonStep",
     title: "Urban Footwear Launch",
     category: "Fashion",
-    image: "https://picsum.photos/800/600?random=1",
-    // YouTube Embed Link with autoplay enabled
-    videoEmbedUrl: "https://www.youtube.com/embed/IH4yc1rANKE?autoplay=1" 
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800",
+    videoEmbedUrl: "https://www.youtube.com/embed/IH4yc1rANKE?autoplay=1"
   },
   {
     id: 2,
-    client: "TechFlow",
-    title: "SaaS Productivity Tool",
-    category: "Software",
-    image: "https://picsum.photos/800/600?random=2"
+    client: "Luxe Threads",
+    title: "Summer Collection",
+    category: "Fashion",
+    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=800",
+    videoEmbedUrl: "https://www.youtube.com/embed/IH4yc1rANKE?autoplay=1" // Placeholder using same video for demo
   },
+
+  // Automotive Category
   {
     id: 3,
-    client: "PureLeaf",
-    title: "Organic Tea Series",
-    category: "FMCG",
-    image: "https://picsum.photos/800/600?random=3"
+    client: "Velocity GT",
+    title: "Electric Future",
+    category: "Automotive",
+    image: "https://images.unsplash.com/photo-1503376763036-066120622c74?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: 4,
-    client: "VelvetHome",
-    title: "Interior Design Reveal",
-    category: "Lifestyle",
-    image: "https://picsum.photos/800/600?random=4"
+    client: "EcoDrive",
+    title: "City Compact Series",
+    category: "Automotive",
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800"
+  },
+
+  // Real Estate Category
+  {
+    id: 5,
+    client: "The Azure",
+    title: "Luxury Penthouse Reveal",
+    category: "Real Estate",
+    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    id: 6,
+    client: "Harbor View",
+    title: "Waterfront Living",
+    category: "Real Estate",
+    image: "https://images.unsplash.com/photo-1600596542815-60c37c6525fa?auto=format&fit=crop&q=80&w=800"
+  },
+
+  // Technology Category
+  {
+    id: 7,
+    client: "TechFlow",
+    title: "SaaS Productivity Tool",
+    category: "Technology",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    id: 8,
+    client: "CyberGuard",
+    title: "Network Security Spot",
+    category: "Technology",
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800"
   }
 ];
