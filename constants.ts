@@ -49,69 +49,67 @@ export const ANNUAL_TIER: PricingTier = {
 };
 
 export const PORTFOLIO_ITEMS: PortfolioItem[] = [
-  // Fashion Category
+  // Automotive Category
   {
     id: 1,
-    client: "NeonStep",
-    title: "Urban Footwear Launch",
-    category: "Fashion",
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800",
-    videoEmbedUrl: "https://drive.google.com/file/d/1KZizBA7PCaz8XxDS4sNIjYOp7rKbeVfY/preview"
+    client: "Tata Motors",
+    title: "Sierra Vertical Sample",
+    category: "Automotive",
+    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&q=80&w=800", // Concept SUV Image
+    videoEmbedUrl: "https://drive.google.com/file/d/1KZizBA7PCaz8XxDS4sNIjYOp7rKbeVfY/preview" // Preserved Drive Link
   },
   {
     id: 2,
-    client: "Luxe Threads",
-    title: "Summer Collection",
-    category: "Fashion",
-    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=800",
-    videoEmbedUrl: "https://www.youtube.com/embed/IH4yc1rANKE?autoplay=1" // Placeholder using same video for demo
-  },
-
-  // Automotive Category
-  {
-    id: 3,
-    client: "Velocity GT",
-    title: "Electric Future",
+    client: "Tata Motors",
+    title: "Sierra Horizontal Sample",
     category: "Automotive",
-    image: "https://images.unsplash.com/photo-1503376763036-066120622c74?auto=format&fit=crop&q=80&w=800"
-  },
-  {
-    id: 4,
-    client: "EcoDrive",
-    title: "City Compact Series",
-    category: "Automotive",
-    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=800", // Different Concept Car Image
+    videoEmbedUrl: "https://drive.google.com/file/d/1RK2xMRbAY7rcFVJ-N68zFKqnAqREAWwM/preview" // New Horizontal Drive Link (Embed format)
   },
 
   // Real Estate Category
   {
     id: 5,
-    client: "The Azure",
+    client: "Lodha",
     title: "Luxury Penthouse Reveal",
     category: "Real Estate",
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800"
-  },
-  {
-    id: 6,
-    client: "Harbor View",
-    title: "Waterfront Living",
-    category: "Real Estate",
-    image: "https://images.unsplash.com/photo-1600596542815-60c37c6525fa?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800",
+    videoEmbedUrl: "https://drive.google.com/file/d/1uA9A-SS5a2o095OyEMqi-VE8f2PqvbNN/preview"
   },
 
-  // Technology Category
+  // Appliances Category
   {
     id: 7,
-    client: "TechFlow",
-    title: "SaaS Productivity Tool",
-    category: "Technology",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
+    client: "KitchenPro",
+    title: "Turbo Mixer Grinder",
+    category: "Appliances",
+    image: "https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&q=80&w=800", // Modern Mixer/Blender
+    videoEmbedUrl: "https://drive.google.com/file/d/1Icff_kxuUipXW-WBIMqO0lKjLSJA4W0c/preview"
   },
   {
     id: 8,
-    client: "CyberGuard",
-    title: "Network Security Spot",
-    category: "Technology",
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800"
+    client: "Surya",
+    title: "Qubix Water Purifier",
+    category: "Appliances",
+    image: "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80&w=800",
+    videoEmbedUrl: "https://drive.google.com/file/d/1Il2cuuwaNyCkHg9cfTHSU9poj4RUeZ88/preview"
+  },
+  {
+    id: 9,
+    client: "The Sleep Company",
+    title: "Smart Grid Sofa",
+    category: "Appliances",
+    image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&q=80&w=800", // Modern Sofa
+    videoEmbedUrl: "https://drive.google.com/file/d/1VUDhTjPMgkUVXi0chIxW69AZLrbz-rcL/preview"
+  },
+
+  // Fashion Category
+  {
+    id: 10,
+    client: "Cord",
+    title: "Premium Ethnic Collection",
+    category: "Fashion",
+    image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=800", // Reliable Indian Fashion Model Image
+    videoEmbedUrl: "https://drive.google.com/file/d/1LWLK4pI-37nGv6mopnV-H7D9GXqFFNLV/preview"
   }
 ];
