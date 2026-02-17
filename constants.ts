@@ -56,7 +56,8 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: "Urban Footwear Launch",
     category: "Fashion",
     image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800",
-    videoEmbedUrl: "https://www.youtube.com/embed/IH4yc1rANKE?autoplay=1"
+    videoEmbedUrl: "https://drive.google.com/file/d/1KZizBA7PCaz8XxDS4sNIjYOp7rKbeVfY/preview
+"
   },
   {
     id: 2,
