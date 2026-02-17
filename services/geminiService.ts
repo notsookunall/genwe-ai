@@ -2,7 +2,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { AdConceptResponse } from "../types";
 
 const ai = new GoogleGenAI({ 
-  apiKey:import.meta.env.VITE.API_KEY });
+  apiKey:import.meta.env.VITE_API_KEY });
 
 export const generateAdConcept = async (
   productName: string,
